@@ -1,0 +1,227 @@
+/* Estilos gerais */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-width: 400px;
+  background-color: #F0F0F0;
+}
+
+#logo {
+  width: 262px;
+  height: 70px;
+}
+ .icon{
+  width: 20px;
+  height: 20px;
+ }
+
+/* Estilos da Navbar */
+.navbar {
+  padding: 10px;
+  background: #F0F0F0 !important;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px;
+  color: #111111 !important;
+  transition: border-bottom 0.2ms;
+}
+
+.nav-link:hover {
+  border-bottom: solid 3px #111111;
+}
+
+
+
+/* Estilos do Carousel */
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  left: 0;
+  right: 0;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 3.65rem;
+  font-weight: 400;
+  color: #FFFFFF;
+
+}
+.carousel-caption p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+/* sobre mim */
+#sobre-mim{
+  color: #333;
+  background-color: #F0F0F0;
+  height: 700px;
+  
+}
+
+
+
+#sobre-mim h2 {
+  font-weight: 600;
+  color: #555;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 15%;
+}
+
+
+/* Estilos dos Cards */
+
+.projetos{
+ 
+  width: 100%;
+  color: #111111;
+  background-color: #FFFFFF;
+}
+ 
+.projetos h1{
+  color: #555;
+  font-weight: 600;
+}
+
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #111111;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+/* Estilos dos Serviços Prestados */
+#services {
+  margin-bottom: 40px;
+  background-color: #f0f0f0;
+}
+
+#services h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #555;
+}
+
+#services img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.service-item {
+  background-color: #fff; /* Define o fundo branco para cada serviço */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Estilos do Footer */
+footer {
+  color: #666;
+}
+
+.social-icons a {
+  color: #666;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #333;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 5px;
+}
+
+
+.footer-container {
+  background-color: #333;
+  padding: 40px 0;
+}
+
+.footer-container h4 {
+  margin-bottom: 20px;
+}
+
+.footer-container p {
+  margin-bottom: 10px;
+}
+
+.footer-container ul.list-inline {
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+.footer-container ul.list-inline li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-container ul.list-inline li:last-child {
+  margin-right: 0;
+}
+
+.footer-container ul.list-inline li a {
+  color: #000;
+  font-size: 24px;
+}
+
+.footer-container ul.list-inline li a:hover {
+  color: #333;
+}
+
+.footer-container hr {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-container p a {
+  color: #333;
+}
+
+.footer-container p a:hover {
+  color: #555;
+}
+
+
+@media (max-width: 768px) {
+  #sobre-mim {
+    height: 900px;
+    min-height: 350px;
+
+  }
+}
