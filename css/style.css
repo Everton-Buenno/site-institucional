@@ -10,9 +10,17 @@ body {
   width: 262px;
   height: 70px;
 }
+
+
  .icon{
   width: 20px;
   height: 20px;
+  margin: 10px;
+
+ }
+ .icon:hover{
+  border-bottom: solid 3px #111111;
+  
  }
 
 /* Estilos da Navbar */
@@ -29,6 +37,7 @@ body {
 
 .nav-link:hover {
   border-bottom: solid 3px #111111;
+
 }
 
 
@@ -218,10 +227,21 @@ footer {
 }
 
 
+
 @media (max-width: 768px) {
   #sobre-mim {
     height: 900px;
     min-height: 350px;
 
   }
+}
+
+
+@media (max-width: 991px) {
+  .nav-link:hover {
+   border: none;
+  }
+
+  
+  
 }
