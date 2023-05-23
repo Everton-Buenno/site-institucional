@@ -71,7 +71,7 @@ body {
 #sobre-mim{
   color: #333;
   background-color: #F0F0F0;
-  height: 700px;
+  height: 600px;
   
 }
 
@@ -86,7 +86,7 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  top: 15%;
+  top: 8%;
 }
 
 
@@ -138,6 +138,18 @@ body {
   color: #555;
 }
 
+
+#services h3 {
+  margin-top: 25px;
+  color: #555;
+  font-weight: 600;
+}
+
+#services p{
+  font-weight: 300;
+
+}
+
 #services img {
   height: 100px;
   width: 100px;
@@ -147,7 +159,7 @@ body {
 
 .service-item {
   background-color: #fff; /* Define o fundo branco para cada serviço */
-  padding: 20px;
+  padding: 100px;
   margin-bottom: 20px;
 }
 
