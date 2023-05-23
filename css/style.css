@@ -15,7 +15,7 @@ body {
  .icon{
   width: 20px;
   height: 20px;
-  margin: 10px;
+  margin: 8px;
 
  }
  .icon:hover{
@@ -233,6 +233,14 @@ footer {
     height: 900px;
     min-height: 350px;
 
+  }
+
+  .carousel-caption h1  {
+    font-size: 40px;
+  }
+
+  .carousel-caption p{
+    font-size: 19px;
   }
 }
 
