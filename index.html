@@ -290,7 +290,10 @@
     <!-- Formulário de Contato -->
     <div class="container mt-4 text-center" id="contact">
       <h2>Entre em Contato</h2>
-      <form>
+      <form
+        action="https://formsubmit.co/evertonbueno2014@gmail.com"
+        method="post"
+      >
         <div class="form-group">
           <input
             type="text"
@@ -316,6 +319,10 @@
           ></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
+
+        <input type="hidden" name="_subject" value="Novo Contato!" />
+        <input type="hidden" name="_honey" style="display: none" />
+        <input type="hidden" name="_captcha" value="false" />
       </form>
     </div>
 
